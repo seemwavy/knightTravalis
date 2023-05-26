@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/knightTravalis/static/css/main.ea2f1575.css",
+    "main.js": "/knightTravalis/static/js/main.2e69d31b.js",
+    "static/js/787.d8a561e9.chunk.js": "/knightTravalis/static/js/787.d8a561e9.chunk.js",
+    "static/media/knight.png": "/knightTravalis/static/media/knight.7b7892a4fe765cef40ab.png",
+    "static/media/240_F_573920251_veCkGPsuqXwZ8pXOl1WulBjho09F3g7u.jpg": "/knightTravalis/static/media/240_F_573920251_veCkGPsuqXwZ8pXOl1WulBjho09F3g7u.1cfa695bb23f69c18ecb.jpg",
+    "index.html": "/knightTravalis/index.html",
+    "main.ea2f1575.css.map": "/knightTravalis/static/css/main.ea2f1575.css.map",
+    "main.2e69d31b.js.map": "/knightTravalis/static/js/main.2e69d31b.js.map",
+    "787.d8a561e9.chunk.js.map": "/knightTravalis/static/js/787.d8a561e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea2f1575.css",
+    "static/js/main.2e69d31b.js"
+  ]
+}

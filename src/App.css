@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+body {
+  background-image: url('240_F_573920251_veCkGPsuqXwZ8pXOl1WulBjho09F3g7u.jpg');
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: #282c34 1px solid;
+}
+
+.square:nth-child(even) {
+  background-color: #b58863;
+}
+
+.square:nth-child(odd) {
+  background-color: #f0d9b5;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: #8d5524;
+  color: #fff;
+}
+.header {
+  color:beige;
+}
+h1 {
+  text-align: center;
+}
+.knight {
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px red;
+  background-color: red;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.moveLog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  border: solid 1px black;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.instructions {
+  display: flex;
+  text-align: center;
+  border: black solid 1px;
+  padding: 10px;
+  background-color: white;
+}
+.mode {
+  margin: 10px;
+  padding: 10px;
+  border: #282c34 1px solid;
+  background-color: #f0d9b5;
+  text-decoration: wavy;
+}
+.mode:hover {
+  cursor: pointer;
+  background-color: #8d5524;
+  color: #fff;
+}
